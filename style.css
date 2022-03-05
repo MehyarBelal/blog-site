@@ -101,8 +101,13 @@ button:hover{
 }
 
 .blog img{
-    height: 500px !important;
+    height: 70% !important;
     width: 100%;
+}å
+
+.blog{
+    margin:20px;
+    background-color: aqua;
 }
 
 .blogs{

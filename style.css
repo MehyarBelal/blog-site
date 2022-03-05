@@ -111,14 +111,21 @@ button:hover{
    
     background-color: aqua;
     height: 50vh !important;
+    margin-left: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+
+.blog:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 .blogs{
     display:grid;
  
     grid-template-columns: 1fr 1fr;
     
-    gap: 10px; 
+    gap: 20px; 
 
     
 }
@@ -126,6 +133,8 @@ button:hover{
 
 
 .blog p {
-    width: 580px;
-    padding: 10px 0;
+    width: 560px;
+    padding: 10px 10px;
+    background-color: #273c75;
+    color:white;
 }

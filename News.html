@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar" onclick="openbox()">
+       
+        <a href="index.html">Home</a>
+        <a href="News.html">News</a>
+        <a href="">Gallery</a>
+        
+
+        
+    </div>
+    
+    <div class="main blog-grid">
+ 
+<div class="blogs">
+
+    <div class="blog">
+
+
+        <img src="https://images.unsplash.com/photo-1646408275985-e14234231f75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellat sed laboriosam minima quaerat, voluptate ratione debitis iste optio consequuntur distinctio dolores veniam cupiditate ad, ullam possimus pariatur expedita aspernatur.</p>
+    </div>
+
+    <div class="blog">
+
+
+        <img src="https://images.unsplash.com/photo-1646335940491-8cd46adec80b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellat sed laboriosam minima quaerat, voluptate ratione debitis iste optio consequuntur distinctio dolores veniam cupiditate ad, ullam possimus pariatur expedita aspernatur.</p>
+    </div>
+
+
+    <div class="blog">
+
+
+        <img src="https://images.unsplash.com/photo-1646365850909-16214126dace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2MHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellat sed laboriosam minima quaerat, voluptate ratione debitis iste optio consequuntur distinctio dolores veniam cupiditate ad, ullam possimus pariatur expedita aspernatur.</p>
+    </div>
+
+    <div class="blog">
+
+
+        <img src="https://images.unsplash.com/photo-1643068472166-ed0124db4e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellat sed laboriosam minima quaerat, voluptate ratione debitis iste optio consequuntur distinctio dolores veniam cupiditate ad, ullam possimus pariatur expedita aspernatur.</p>
+    </div>
+</div>
+
+
+</div>
+
+   <script>
+
+function openbox(){
+   
+    let sidebar = document.querySelector('.sidebar');
+
+    sidebar.classList.add("open-bar");
+
+    
+}
+
+let closebtn = document.querySelector('.closebtn');
+
+
+closebtn.addEventListener("click",function(){
+
+    sidebar.classList.add('close-bar');
+})
+   </script>
+</body>
+</html>

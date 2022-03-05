@@ -56,13 +56,17 @@ h2{
     align-items: center;
     flex-direction: column;
    height: 100vh;
-   background-image: url('https://images.unsplash.com/photo-1646161236109-b840ebb993af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
 color: white;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+
 }
 
+
+.bg-image{
+    background-image: url('https://images.unsplash.com/photo-1646161236109-b840ebb993af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 h1{
     text-align: left !important;
     width: 600px;
@@ -90,3 +94,23 @@ button:hover{
     opacity: 0.9;
     cursor: pointer;
 }
+
+.blog-grid{
+    color:black;
+   
+}
+
+.blog img{
+    height: 500px !important;
+    width: 100%;
+}
+
+.blogs{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 50px;
+    margin: 20px !important;
+   
+}
+

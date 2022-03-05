@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar" onclick="openbox()">
+       
+
+        <a href="">News</a>
+        <a href="">Gallery</a>
+        <a href="">Extra</a>
+
+        
+    </div>
+    
+    <div class="main">
+ 
+<h1>Welcome to the Blog Of the Year</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate natus at nihil qui fuga impedit necessitatibus voluptatem nemo ab corrupti, sit laborum a libero accusantium atque inventore eum voluptatibus id?</p>
+  
+
+<div class="btns">
+
+    <button>Explore</button>
+    <button>Sign Up</button>
+</div>
+
+</div>
+
+   <script>
+
+function openbox(){
+   
+    let sidebar = document.querySelector('.sidebar');
+
+    sidebar.classList.add("open-bar");
+
+    
+}
+
+let closebtn = document.querySelector('.closebtn');
+
+
+closebtn.addEventListener("click",function(){
+
+    sidebar.classList.add('close-bar');
+})
+   </script>
+</body>
+</html>

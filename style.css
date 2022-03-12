@@ -140,3 +140,9 @@ button:hover{
     padding: 10px 0px;
   
 }
+
+.title{
+    text-align: center;
+    margin-left: 7em;
+    padding: 10px 0 ;
+}

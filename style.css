@@ -20,7 +20,7 @@ font-size: 40px;
 .close-bar{
     width: 50px !important;
     transition: all 0.1s;
-font-size: 40px;
+font-size: 15px;
 }
 
 .sidebar{
@@ -35,8 +35,22 @@ flex-direction: column;
     position: fixed;
     top:0;
     left:0;
+    
     z-index: 4;
     
+}
+
+#btnclose{
+position: absolute;
+
+top:10px;
+color: rgb(247, 247, 247);
+right: 20px;
+}
+
+#btnclose:hover{
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 a{
@@ -80,15 +94,15 @@ color: white;
 }
 h1{
     text-align: left !important;
-    width: 580px;
+    width: 620px;
  
-    font-size: 55px;
+    font-size: 80px;
 }
 .bg-image p{
     text-align: left !important;
     width: 600px;
     margin: 25px 0;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 20px;;
 }
 button{
@@ -172,9 +186,14 @@ footer{
 
 
 #bars{
-    font-size: 30px;
+    font-size: 35px;
     position: absolute;
-    top: 0;
+    top: .5em;
     left: 2em;
    
+}
+
+#bars:hover{
+    cursor: pointer;
+    opacity: 0.7;
 }

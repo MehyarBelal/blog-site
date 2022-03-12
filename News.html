@@ -11,7 +11,10 @@
 
    
     <div class="sidebar" onclick="openbox()">
-   
+        <i id="btnclose"class="fa-solid fa-xmark">X</i>
+
+      
+
         <a href="index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-card-heading" viewBox="0 0 16 16">
             <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
             <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z"/>
@@ -32,7 +35,7 @@
     </div>
     
     <div class="main blog-grid">
- 
+        <i  style="color:black" id="bars" class="fa fa-bars" aria-hidden="true"></i>
         <h1 class="title">News</h1>
 <div class="blogs">
 
@@ -71,30 +74,43 @@
     </div>
 </div>
 
+<div class="blog-section">
+
+<div class="banner">
+
+    <img src="https://images.unsplash.com/photo-1563998767816-3684925102c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="text">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<br>
+
+<p>Nulla porttitor massa id neque aliquam vestibulum morbi blandit. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Aliquet sagittis id consectetur purus ut. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Ut lectus arcu bibendum at varius vel pharetra. Ullamcorper dignissim cras tincidunt lobortis. Sollicitudin nibh sit amet commodo nulla. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. At augue eget arcu dictum varius duis at consectetur. Elementum integer enim neque volutpat ac. Egestas erat imperdiet sed euismod nisi porta. Laoreet suspendisse interdum consectetur libero. Diam maecenas ultricies mi eget mauris pharetra et ultrices.
+
+    
+    Nulla porttitor massa id neque aliquam vestibulum morbi blandit. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Aliquet sagittis id consectetur purus ut. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Ut lectus arcu bibendum at varius vel pharetra. Ullamcorper dignissim cras tincidunt lobortis. Sollicitudin nibh sit amet commodo nulla. Integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus. At augue eget arcu dictum varius duis at consectetur. Elementum integer enim neque volutpat ac. Egestas erat imperdiet sed euismod nisi porta. Laoreet suspendisse interdum consectetur libero. Diam maecenas ultricies mi eget mauris pharetra et ultrices.
+</p>
+
+<br>
+<p>Arcu risus quis varius quam. Tristique senectus et netus et. Ut diam quam nulla porttitor massa id. Sit amet mauris commodo quis imperdiet massa. Enim eu turpis egestas pretium aenean pharetra magna ac. A lacus vestibulum sed arcu non. Tortor at risus viverra adipiscing at in tellus integer feugiat. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo. Massa sed elementum tempus egestas sed sed risus. Convallis a cras semper auctor neque. Platea dictumst quisque sagittis purus sit amet volutpat. Dictum non consectetur a erat.</p>
+</div>
+
+</div>
 <footer>
 
     designed and created by Mehyar B.
 </footer>
 </div>
 
-   <script>
 
-function openbox(){
-   
-    let sidebar = document.querySelector('.sidebar');
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="app.js"></script>
 
-    sidebar.classList.add("open-bar");
-
-    
-}
-
-let closebtn = document.querySelector('.closebtn');
-
-
-closebtn.addEventListener("click",function(){
-
-    sidebar.classList.add('close-bar');
-})
-   </script>
+   <script src="https://kit.fontawesome.com/bbfec45e0b.js" crossorigin="anonymous"></script>
 </body>
 </html>

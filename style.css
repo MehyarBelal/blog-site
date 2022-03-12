@@ -197,3 +197,7 @@ footer{
     cursor: pointer;
     opacity: 0.7;
 }
+
+.blog-section {
+background-color: aqua;
+}

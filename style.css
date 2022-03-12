@@ -164,8 +164,9 @@ button:hover{
 }
 
 .title{
-    text-align: center;
-    margin-left: 7em;
+background-color: aqua;
+    width: 100%;
+  
     padding: 20px 0 ;
 }
 
@@ -200,9 +201,10 @@ footer{
 
 .blog-section {
 background-color: aqua;
-
+width: 87%;
+margin-top: 10em;
 }
 
 .blog-section img{
-    width: 400px;
+    width: 100%;
 }

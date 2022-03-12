@@ -200,4 +200,9 @@ footer{
 
 .blog-section {
 background-color: aqua;
+
+}
+
+.blog-section img{
+    width: 400px;
 }

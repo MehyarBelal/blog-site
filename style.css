@@ -45,9 +45,10 @@ color: rgb(247, 247, 247);
 right: 20px;
 }
 
-#btnclose:hover{
+#btnclose:hover,#user:hover{
     cursor: pointer;
     opacity: 0.9;
+    
 }
 
 a{
@@ -239,3 +240,17 @@ width: 87%;
 
     filter: grayscale(0);
 }
+
+#user{
+    font-size: 30px;
+    position: absolute;
+    top:.5em;
+    right:2em;
+    transition: 0.4s all;
+}
+
+#user:hover{
+    transition: 0.2s all;
+
+}
+

@@ -268,3 +268,13 @@ width: 87%;
 
     height: 80vh !important;
 }
+
+.twins{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.twins img{
+    width: 100%;
+    height: 100%;
+}

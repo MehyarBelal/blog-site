@@ -254,3 +254,17 @@ width: 87%;
 
 }
 
+
+.blue{
+    color:#273c75 !important;
+}
+
+.contact{
+  
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    height: 80vh !important;
+}

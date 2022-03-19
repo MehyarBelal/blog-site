@@ -40,10 +40,3 @@ $('#user').mouseout(function(){
     $('#user').addClass('fa-user ')
 })
 
-gsap.from(".left", {
-    scrollTrigger: ".twins", // start the animation when ".box" enters the viewport (once)
-    x: -500
-    
-  });
-
- 
